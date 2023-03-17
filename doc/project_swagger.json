@@ -65,7 +65,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Assignment»"
+              "$ref": "#/definitions/DtoCollectionAssignment"
             }
           },
           "401": {
@@ -185,7 +185,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Assignment»"
+              "$ref": "#/definitions/DtoCollectionAssignment"
             }
           },
           "401": {
@@ -233,7 +233,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«ProjectCommit»"
+              "$ref": "#/definitions/DtoCollectionProjectCommit"
             }
           },
           "401": {
@@ -329,7 +329,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«ProjectCommit»"
+              "$ref": "#/definitions/DtoCollectionProjectCommit"
             }
           },
           "401": {
@@ -527,7 +527,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Assignment»"
+              "$ref": "#/definitions/DtoCollectionAssignment"
             }
           },
           "401": {
@@ -761,7 +761,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Credential»"
+              "$ref": "#/definitions/DtoCollectionCredential"
             }
           },
           "401": {
@@ -918,7 +918,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Credential»"
+              "$ref": "#/definitions/DtoCollectionCredential"
             }
           },
           "401": {
@@ -1199,7 +1199,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Department»"
+              "$ref": "#/definitions/DtoCollectionDepartment"
             }
           },
           "401": {
@@ -1356,7 +1356,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Department»"
+              "$ref": "#/definitions/DtoCollectionDepartment"
             }
           },
           "401": {
@@ -1559,7 +1559,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Employee»"
+              "$ref": "#/definitions/DtoCollectionEmployee"
             }
           },
           "401": {
@@ -1716,7 +1716,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Employee»"
+              "$ref": "#/definitions/DtoCollectionEmployee"
             }
           },
           "401": {
@@ -1756,7 +1756,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Employee»"
+              "$ref": "#/definitions/DtoCollectionEmployee"
             }
           },
           "401": {
@@ -1796,7 +1796,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«EmployeeProjectData»"
+              "$ref": "#/definitions/DtoCollectionEmployeeProjectData"
             }
           },
           "401": {
@@ -1836,7 +1836,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«ManagerProjectData»"
+              "$ref": "#/definitions/DtoCollectionManagerProjectData"
             }
           },
           "401": {
@@ -2117,7 +2117,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Location»"
+              "$ref": "#/definitions/DtoCollectionLocation"
             }
           },
           "401": {
@@ -2271,7 +2271,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Location»"
+              "$ref": "#/definitions/DtoCollectionLocation"
             }
           },
           "401": {
@@ -2471,7 +2471,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Project»"
+              "$ref": "#/definitions/DtoCollectionProject"
             }
           },
           "401": {
@@ -2625,7 +2625,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/DtoCollection«Project»"
+              "$ref": "#/definitions/DtoCollectionProject"
             }
           },
           "401": {
@@ -2905,7 +2905,7 @@
       },
       "title": "Department"
     },
-    "DtoCollection«Assignment»": {
+    "DtoCollectionAssignment": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2915,9 +2915,9 @@
           }
         }
       },
-      "title": "DtoCollection«Assignment»"
+      "title": "DtoCollectionAssignment"
     },
-    "DtoCollection«Credential»": {
+    "DtoCollectionCredential": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2927,9 +2927,9 @@
           }
         }
       },
-      "title": "DtoCollection«Credential»"
+      "title": "DtoCollectionCredential"
     },
-    "DtoCollection«Department»": {
+    "DtoCollectionDepartment": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2939,9 +2939,9 @@
           }
         }
       },
-      "title": "DtoCollection«Department»"
+      "title": "DtoCollectionDepartment"
     },
-    "DtoCollection«EmployeeProjectData»": {
+    "DtoCollectionEmployeeProjectData": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2951,9 +2951,9 @@
           }
         }
       },
-      "title": "DtoCollection«EmployeeProjectData»"
+      "title": "DtoCollectionEmployeeProjectData"
     },
-    "DtoCollection«Employee»": {
+    "DtoCollectionEmployee": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2963,9 +2963,9 @@
           }
         }
       },
-      "title": "DtoCollection«Employee»"
+      "title": "DtoCollectionEmployee"
     },
-    "DtoCollection«Location»": {
+    "DtoCollectionLocation": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2975,9 +2975,9 @@
           }
         }
       },
-      "title": "DtoCollection«Location»"
+      "title": "DtoCollectionLocation"
     },
-    "DtoCollection«ManagerProjectData»": {
+    "DtoCollectionManagerProjectData": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2987,9 +2987,9 @@
           }
         }
       },
-      "title": "DtoCollection«ManagerProjectData»"
+      "title": "DtoCollectionManagerProjectData"
     },
-    "DtoCollection«ProjectCommit»": {
+    "DtoCollectionProjectCommit": {
       "type": "object",
       "properties": {
         "collection": {
@@ -2999,9 +2999,9 @@
           }
         }
       },
-      "title": "DtoCollection«ProjectCommit»"
+      "title": "DtoCollectionProjectCommit"
     },
-    "DtoCollection«Project»": {
+    "DtoCollectionProject": {
       "type": "object",
       "properties": {
         "collection": {
@@ -3011,7 +3011,7 @@
           }
         }
       },
-      "title": "DtoCollection«Project»"
+      "title": "DtoCollectionProject"
     },
     "Employee": {
       "type": "object",

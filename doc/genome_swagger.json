@@ -90,8 +90,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "hotspots"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {
@@ -156,8 +155,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "annotation_summary"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {
@@ -218,8 +216,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "annotation_summary"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {
@@ -281,8 +278,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "hotspots"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {
@@ -343,8 +339,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "hotspots"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {
@@ -402,8 +397,7 @@
                         "items": {
                             "type": "string"
                         },
-                        "collectionFormat": "multi",
-                        "default": "hotspots"
+                        "collectionFormat": "multi"
                     }
                 ],
                 "responses": {

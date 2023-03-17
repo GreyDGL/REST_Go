@@ -9,9 +9,6 @@
       "url": "http://github.com/chrisgleissner/spring-batch-rest/blob/master/LICENSE"
     }
   },
-  "schemes": [
-    "http"
-  ],
   "servers": [
     {
       "url": "http://localhost:50114",
